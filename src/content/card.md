@@ -9,7 +9,7 @@ title = "Business cards"
     margin-right: auto;
     width: auto;
   "
-  src="card/business-card-front.svg"
+  src="business-card-front.svg"
   alt="Dimitris business Card front">
 </img>
 
@@ -20,6 +20,6 @@ title = "Business cards"
     margin-right: auto;
     width: auto;
   "
-  src="card/business-card-back.svg"
+  src="business-card-back.svg"
   alt="Dimitris business Card back">
 </img>
