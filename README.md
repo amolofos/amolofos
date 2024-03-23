@@ -78,6 +78,31 @@ What did we do when we first created this repository?
 
 * Theme from [Speyll/anemone](https://github.com/Speyll/anemone)
 
+## External domain
+
+Configure the apex domain using the following guides:
+
+* [managing-a-custom-domain-for-your-github-pages-site#configuring-an-apex-domain](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site#configuring-an-apex-domain)
+* [verifying-your-custom-domain-for-github-page](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/verifying-your-custom-domain-for-github-pages)
+* [securing-your-github-pages-site-with-https](https://docs.github.com/en/pages/getting-started-with-github-pages/securing-your-github-pages-site-with-https)
+
+Check that the dns servers have been configured corectly.
+
+```bash
+$ dig kafetzis.dev +noall +answer -t A
+kafetzis.dev.		3600	IN	A	185.199.110.153
+kafetzis.dev.		3600	IN	A	185.199.108.153
+kafetzis.dev.		3600	IN	A	185.199.109.153
+kafetzis.dev.		3600	IN	A	185.199.111.153
+
+$ dig www.kafetzis.dev +noall +answer -t A
+www.kafetzis.dev.	2480	IN	CNAME	kafetzis.dev.
+kafetzis.dev.		3600	IN	A	185.199.109.153
+kafetzis.dev.		3600	IN	A	185.199.111.153
+kafetzis.dev.		3600	IN	A	185.199.108.153
+kafetzis.dev.		3600	IN	A	185.199.110.153
+```
+
 ## License
 
 See [MIT License](LICENSE) document.
