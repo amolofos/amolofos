@@ -1,0 +1,33 @@
+# The URL the site will be built for
+base_url = "https://kafetzis.dev"
+
+# Whether to automatically compile all Sass files in the sass directory
+compile_sass = true
+
+# Whether to build a search index to be used later on by a JavaScript library
+build_search_index = false
+
+theme = "anemone"
+
+[markdown]
+# Whether to do syntax highlighting
+# Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
+highlight_code = false
+
+[extra]
+# Put all your custom variables here
+
+# See https://github.com/Speyll/anemone.
+
+list_pages = true
+
+toc = true
+
+header_nav = [
+  { url = "/",        name_en = "/home/" },
+  { url = "/about",   name_en = "/about/" },
+  { url = "/journal", name_en = "/resume/" }
+]
+
+footer_content_license = "The MIT License"
+footer_content_license_link = "https://opensource.org/license/mit"
