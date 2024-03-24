@@ -3,7 +3,7 @@ title = "Resume"
 +++
 
 <div style="align-items: right;">
-Download as pdf <a style="display: inline-block;" href="https://github.com/amolofos/CVKafetzisDimitris/releases/download/v1.0.53/DimitrisKafetzis-cv-en-oneColumn.v1.0.53.pdf" target="blank"><img src="icons8-pdf-12.png" alt="cv" title="cv"></a>
+Download as pdf <a style="display: inline-block;" href="https://github.com/amolofos/CVKafetzisDimitris/releases/download/v1.0.54/DimitrisKafetzis-cv-en-oneColumn.v1.0.54.pdf" target="blank"><img src="icons8-pdf-12.png" alt="cv" title="cv"></a>
 </div>
 
 <div style="text-align: center;">
@@ -18,7 +18,7 @@ Download as pdf <a style="display: inline-block;" href="https://github.com/amolo
     <li style="display: inline-block;"><a href="mailto:dimitris@kafetzis.dev" target="blank"><img src="email_icon.png" alt="email" title="mailto:dimitris@kafetzis.dev"></a></li>
     <li style="display: inline-block;"><a href="https://www.linkedin.com/in/kafetzisd" target="blank"><img src="icons8-linkedin.svg" alt="LinkedIn: kafetzisd" title="LinkedIn: kafetzisd"></a></li>
     <li style="display: inline-block;"><a href="https://github.com/amolofos" target="blank"><img src="icons8-github.svg" alt="Github: amolofos" title="Github: amolofos"></a></li>
-    <li style="display: inline-block;"><a href="https://github.com/amolofos/CVKafetzisDimitris/releases/download/v1.0.53/DimitrisKafetzis-cv-en-oneColumn.v1.0.53.pdf" target="blank"><img src="pdf_icon.png" alt="cv as pdf" title="cv as pdf"></a></li>
+    <li style="display: inline-block;"><a href="https://github.com/amolofos/CVKafetzisDimitris/releases/download/v1.0.54/DimitrisKafetzis-cv-en-oneColumn.v1.0.54.pdf" target="blank"><img src="pdf_icon.png" alt="cv as pdf" title="cv as pdf"></a></li>
 
   </ul>
 </div>
@@ -33,7 +33,7 @@ My experience spans across 11 YoE designing and building heavily transactional, 
 
 <!-- You have to wrap the "left" and "right" half of these headings in spans by
 hand -->
-### <span>Site Reliabily Engineer (SRE) / Platform Engineer</span>
+### <span>Site Reliability Engineer (SRE) / Platform Engineer</span>
 <span>Nov 2022 - Present</br>
 VegaSolutions / TokkaLabs / Native / RangeProtocol - Singapore</span>
 
@@ -45,7 +45,7 @@ Joined as the first dedicated SRE/Platform engineer.
 - Refactored helm templates and value files by introducing separation and hierarchy simplifying them and easing their maintenance. This allowed application engineers to automatically generate them and reduce the introduction of new services from a couple of days to a few minutes.
 - Pushed for a cloud native architecture by provisioning databases inside k8s and advocating for k8s only deployments. Succeeded in deploying small mysql, postgres/timescale and redis clusters in k8s.
 
-### <span>Site Reliabily Engineer (SRE)</span>
+### <span>Site Reliability Engineer (SRE)</span>
 <span>Sept 2021 - Oct 2022 (1yr 1mo)</br>
 Bytedance - Global E-commerce TikTok - Singapore</span>
 
