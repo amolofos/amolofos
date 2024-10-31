@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="text/html; charset=UTF-8" http-equiv="content-type"/>
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+<meta name="robots" content="index, follow">
+
+
+
+
+
+
+
+
+
+
+
+
+<title>Resume</title>
+
+
+
+<meta name="title" content="Resume">
+
+
+
+<meta name="description" content="Dimitrios Andreas Kafetzis personal website">
+
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://kafetzis.dev/resume/">
+
+<meta property="og:site_name" content="kafetzis.dev">
+
+
+<meta property="og:title" content="Resume">
+
+
+<meta property="og:description" content="Dimitrios Andreas Kafetzis personal website">
+
+
+
+
+<meta property="twitter:card" content="summary_large_image">
+<meta property="twitter:url" content="https://kafetzis.dev/resume/">
+
+<meta property="twitter:title" content="Resume">
+
+
+<meta property="twitter:description" content="Dimitrios Andreas Kafetzis personal website">
+
+
+
+<link rel="canonical" href="https://kafetzis.dev/resume/">
+
+
+
+
+<link rel="stylesheet" type="text/css" href="https://speyll.github.io/suCSS/reset-min.css"/>
+<link rel="stylesheet" type="text/css" href="https://speyll.github.io/suCSS/suCSS-min.css"/>
+<link rel="stylesheet" type="text/css" href="https://kafetzis.dev/css/style.css"/>
+
+<script src="https://kafetzis.dev/js/script.js" defer></script>
+
+
+</head>
+<body>
+      <header>
+          
+
+  
+
+
+  <nav id="nav-bar">
+    
+      <a href="&#x2F;" class="">
+        
+        &#x2F;home&#x2F;
+      </a>
+    
+      <a href="&#x2F;card" class="">
+        
+        &#x2F;business card&#x2F;
+      </a>
+    
+      <a href="&#x2F;resume" class="">
+        
+        &#x2F;resume&#x2F;
+      </a>
+    
+    <div>
+      <input type="checkbox" id="theme-toggle" style="display: none;">
+      <label for="theme-toggle" id="theme-toggle-label"><svg id="theme-icon" class="icons"><use href="https://kafetzis.dev/icons.svg#lightMode"></use></svg></label>
+      <audio id="theme-sound">
+        <source src="https://kafetzis.dev/click.ogg" type="audio/ogg">
+      </audio>
+    </div>
+  </nav>
+
+
+      </header>
+      <main>
+          
+<h1>Resume</h1>
+
+
+
+<div style="align-items: right;">
+Download as pdf <a style="display: inline-block;" href="https://github.com/amolofos/CVKafetzisDimitris/releases/download/v1.0.54/DimitrisKafetzis-cv-en-oneColumn.v1.0.54.pdf" target="blank"><img src="icons8-pdf-12.png" alt="cv" title="cv"></a>
+</div>
+<div style="text-align: center;">
+  <p style="font-size: 3em;">Dimitrios Andreas Kafetzis</p>
+<p style="font-size: 1.5em;">Site Reliability and Platform Engineering</p>
+</div>
+<div style="display: flex; align-items: center; justify-content: center;">
+<ul style="list-style: none; text-align: center;">
+    <li style="display: inline-block;"><a href="mailto:dimitris@kafetzis.dev" target="blank"><img src="email_icon.png" alt="email" title="mailto:dimitris@kafetzis.dev"></a></li>
+    <li style="display: inline-block;"><a href="https://www.linkedin.com/in/kafetzisd" target="blank"><img src="icons8-linkedin.svg" alt="LinkedIn: kafetzisd" title="LinkedIn: kafetzisd"></a></li>
+    <li style="display: inline-block;"><a href="https://github.com/amolofos" target="blank"><img src="icons8-github.svg" alt="Github: amolofos" title="Github: amolofos"></a></li>
+    <li style="display: inline-block;"><a href="https://github.com/amolofos/CVKafetzisDimitris/releases/download/v1.0.54/DimitrisKafetzis-cv-en-oneColumn.v1.0.54.pdf" target="blank"><img src="pdf_icon.png" alt="cv as pdf" title="cv as pdf"></a></li>
+</ul>
+</div>
+<div style="text-align: center;">
+My experience spans across 12 YoE designing and building heavily transactional, distributed, relational database backed systems. The last 4 years I have made a shift on the SRE problem domain.
+</div>
+<hr />
+<h2 id="work-experience">WORK EXPERIENCE</h2>
+<!-- You have to wrap the "left" and "right" half of these headings in spans by
+hand -->
+<h3 id="senior-site-reliability-engineer-sre-platform-reliability-engineer"><span>Senior Site Reliability Engineer (SRE) | Platform Reliability Engineer</span></h3>
+<p><span>Sept 2024 - Present</br>
+Adyen - Singapore</span></p>
+<p>Joined as a member of the global SRE team.</p>
+<ul>
+<li>Eased the onboarding by structuring and writing an intro-to-platform course.</li>
+</ul>
+<h3 id="site-reliability-engineer-sre-platform-engineer"><span>Site Reliability Engineer (SRE) | Platform Engineer</span></h3>
+<p><span>Nov 2022 - Aug 2024</br>
+VegaSolutions / TokkaLabs / Native / RangeProtocol - Singapore</span></p>
+<p>Joined as the first dedicated SRE/Platform engineer under Vega Solutions bulding a platform to support multiple tenants. The last months of my journey with these companies, June - August 2024, my employment moved under Tokka Labs.</p>
+<ul>
+<li>Designed and implemented new system architecture (AWS -&gt; AWS) improving externally exposed service latency below 500ms (from ~1s) and supporting multiple regions (provisioning a new region with full services takes less than 2 days).</li>
+<li>Introduced shared services such as SSO, Vault eliminating the need for different accounts per service.</li>
+<li>Created template integrations for instrumenting nodejs and python services against Prometheus, Grafana and Jaeger improving visibility and allowing engineers to investigate production issues in a matter of minutes.</li>
+<li>Refactored helm templates and value files by introducing separation and hierarchy simplifying them and easing their maintenance. This allowed application engineers to automatically generate them and reduce the introduction of new services from a couple of days to a few minutes.</li>
+<li>Pushed for a cloud native architecture by provisioning databases inside k8s and advocating for k8s only deployments. Succeeded in deploying small mysql, postgres/timescale and redis clusters in k8s.</li>
+</ul>
+<h3 id="site-reliability-engineer-sre"><span>Site Reliability Engineer (SRE)</span></h3>
+<p><span>Sept 2021 - Oct 2022 (1yr 1mo)</br>
+Bytedance - Global E-commerce TikTok - Singapore</span></p>
+<p>Joined the newly formed SRE team supporting the Global E-commerce function of TikTok.</p>
+<ul>
+<li>Implemented a Kubernetes sidecar measuring the availability SLI of more than 200 HTTP services.</li>
+<li>Analysed SLI based alerts and pushed for adoption of error budget burn rate approach.</li>
+<li>Designed and implemented the MVP version of an incident record tool aiming to reduce the manual bookkeeping activities during oncall cases and build a knowledge base based on them.</li>
+</ul>
+<h3 id="principal-integration-engineer-site-reliability-engineer"><span>Principal Integration Engineer | Site Reliability Engineer</span></h3>
+<p><span>Aug 2020 - Sep 2021 (1 yr 2 mos)</br>
+OpenBet - Singapore</span></p>
+<ul>
+<li>Defined the initial process for an SRE rota across two teams located in multiple locations.</li>
+<li>Updated existing Grafana dashboards and created new ones to visualise our production problems across the stack (haproxy, applications, database).</li>
+</ul>
+<h3 id="principal-software-engineer"><span>Principal Software Engineer</span>.</h3>
+<p><span>Sep 2018 - Jul 2020 (1 yr 11 mos)</br>
+OpenBet - Singapore</span></p>
+<ul>
+<li>Led a team of 3 engineers with the goal to harden the funding flow ensuring eWallet integrity resulting in a drop of 1 incident per week to 1 per year.</li>
+<li>Enhanced the performance of slow database queries bring the number of production incidents due to human design error down to zero (0).</li>
+<li>Investigated more than 20 high profile production issues and presented 4 sensitive incidents to C level stakeholders.</li>
+<li>Migrated 80 million lottery bets to renewed, more robust data model.</li>
+</ul>
+<h3 id="senior-software-engineer"><span>Senior Software Engineer</span></h3>
+<p><span>Oct 2015 - Aug 2018 (2 yrs 11 mos)</br>
+OpenBet - Singapore</span></p>
+<ul>
+<li>Coordinated development of cross functional features amongst teams of different locations with a goal to rollout our solution to a new tier 1 customer.</li>
+<li>Owned the data migration into the new platform including 100 million rows of transaction history and user activity and completed in under 3 hours.</li>
+<li>Designed distributed queries for Informix database materialising the reporting needs of the Finance and Trading departments.</li>
+<li>Influenced the release process from code to production increasing the delivery capacity of the team.</li>
+<li>Rewrote the ansible deployment scripts reducing to zero the release introduced incidents.</li>
+</ul>
+<h3 id="software-engineer"><span>Software Engineer</span></h3>
+<p><span>Nov 2012 - Sep 2015 (2 yrs 11 mos)</br>
+Rizariou 10, Chalandri, Greece</span></p>
+<ul>
+<li>Wrote and performed the extraction of one billion rows during uptime and no impact to operations.</li>
+<li>Integrated with Paypal &amp; Safecharge payment providers tokenizing credit card information removing the need for PCI compliance.</li>
+</ul>
+<h2 id="education">EDUCATION</h2>
+<p>I have not completed tertiary education.</p>
+<p>Attended Electrical Engineering and Computer Science, University of Patras, Greece during the period of Sep 2003 - Jul 2009.</p>
+
+
+<p class="tags-data">
+
+</p>
+
+      </main>
+      <footer>
+          <hr>
+<div id="footer-container">
+  
+    <div>Except where otherwise noted, content on this site is licensed under a 
+    
+    <a target="_blank" rel="noopener noreferrer" href="https:&#x2F;&#x2F;opensource.org&#x2F;license&#x2F;mit">The MIT License</a>
+    
+    license.</div>
+  
+  <div>
+    <p>Theme and color theme licensed under <a target="_blank" rel="noopener noreferrer" href="https://en.wikipedia.org/wiki/Licence_MIT">MIT</a>.<br>
+      Built with <a target="_blank" rel="noopener noreferrer" href="https://www.getzola.org">Zola</a> using <a target="_blank" rel="noopener noreferrer" href="https://github.com/Speyll/anemone">anemone</a> theme, <a target="_blank" rel="noopener noreferrer" href="https://speyll.github.io/suCSS/">suCSS</a> framework &amp; <a target="_blank" rel="noopener noreferrer" href="https://github.com/Speyll/veqev">veqev</a>.<br>
+    </p>
+
+  </div>
+  
+</div>
+
+      </footer>
+</body>
+</html>
